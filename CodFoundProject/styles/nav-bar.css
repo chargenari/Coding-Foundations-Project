@@ -1,0 +1,126 @@
+/* Navigation bar */
+.navigation-wrapper {
+    padding: 30px;
+    height: 75px;
+    background-color: black;
+    margin: -8px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 200px;
+    font-family: 'Lato', Sans-Serif;
+    color: #FFFFFF;
+
+}
+
+/* "logo-explore-spark" section */
+.navigation-wrapper > .logo-explore-spark {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.navigation-wrapper > .logo-explore-spark > .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+}
+
+.navigation-wrapper > .logo-explore-spark > .logo img{
+    width: 300px;
+    height: 58.60px;
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: large;
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper > .explore {
+    color: #ffd659;
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper > .nav-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Biryani', Sans-Serif;
+    font-weight: 900;
+    
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper > .nav-link-wrapper a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper > .nav-link-wrapper > .spark-btn-wrapper {
+    display: flex;
+    justify-content:center;
+}
+
+.navigation-wrapper > .logo-explore-spark > .explore-section-wrapper > .nav-link-wrapper > .spark-btn-wrapper button {
+    background-color: black;
+    color: #828491;
+    border: none;
+    font-family: 'Biryani', Sans-Serif;
+    font-size: large;
+}
+
+/* "search-login-wrapper" section*/
+.navigation-wrapper > .search-login-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 2.2fr;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.navigation-wrapper > .search-login-wrapper > .create-button {
+    display: flex;
+    justify-content:center;
+}
+
+.navigation-wrapper > .search-login-wrapper > .create-button button {
+    background-color: #35383f;
+    color: white;
+    border: none;
+    font-family: 'Lato', Sans-Serif;
+    font-size: larger;
+    padding: 25px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .search-login-wrapper > .create-button i {
+    color: #5fce8a;
+}
+
+.navigation-wrapper > .search-login-wrapper > .search-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .search-login-wrapper > .search-icon i {
+    font-size: 45px;
+    color: #828491;
+}
+
+.navigation-wrapper > .search-login-wrapper > .log-sign-links-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper > .search-login-wrapper > .log-sign-links-wrapper > .log-sign-link {
+    background-color: #35383f;
+    font-size: larger;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .search-login-wrapper > .log-sign-links-wrapper > .log-sign-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
